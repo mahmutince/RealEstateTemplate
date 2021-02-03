@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- 
+        design: Sourav Aich mail: sales@aichdesign.com
+        coding: Mahmut İnce mail: mahmut.ince5@hotmail.com 
+    -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous"> 
+    <link rel="stylesheet" href="css/style.css">
+    
+    <title>HouseSale</title>
+</head>
+<body>
+    <div class="page1">
+        <header>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkBtn">
+                <i class="fas fa-bars"></i>
+
+            </label>
+            <img src="images/logo.svg" alt="logo" id="logo">
+            <ul>
+                <li><a href="">On Sale</a></li>
+                <li><a href="">For Rent</a></li>
+                <li><a href="">New Residential Project</a></li>
+                <li><a href="">Property News</a></li>
+
+            </ul>
+            
+        </header>
+
+        <div class="page1Content">
+            <h1>Quality home services,<br> on demand</h1>
+            <p>Experienced, hand-picked Professionals to serve you at your doorstep</p>
+            <div class="searchBar">
+
+                <select class="searchItems" id="onsale" aria-placeholder="dsds">
+                    <option value="onsale">On Sale</option>
+                    <option value="forrent">For Rent</option>
+                 
+                </select>
+
+                <select class="searchItems" id="cities">
+                    <option value="istanbul">İstanbul</option>
+                    <option value="ankara">Ankara</option>
+                    <option value="izmir">İzmir</option>
+                    <option value="bursa">Bursa</option>
+                    
+                </select>
+
+                
+
+                <input  class="searchItems"type="number" id="minPrice" placeholder="Minimum Price">
+
+                <input class="searchItems"type="number"  id="maxPrice" placeholder="Maximum Price">   
+
+                
+
+                <select class="searchItems" id="bedroom">
+                    <option value="bed_1">One Bedroom</option>
+                    <option value="bed_2">Two Bedroom</option>
+                    <option value="bed_3">Three Bedroom</option>
+                    <option value="bed_4">Four Bedroom</option>
+                    
+                </select>
+
+                <select class="searchItems" id="bathroom" name="Bathroom">
+                    <option value="bath_1">One Bathroom</option>
+                    <option value="bath_2">Two Bathroom</option>
+                    <option value="bath_3">Three Bathroom</option>
+                    <option value="bath_4">Four Bathroom</option>
+                    
+                </select>
+                <input class="searchItems" type="searchBox" name="" id="search" placeholder="Search with tags: #city #neighborhood">
+                <div class="searchItems" id="searchBtn">
+                    <h3>SEARCH</h3>
+                </div>
+
+
+    
+            </div>
+        </div>
+
+        
+    </div>
+    <div class="page2">
+        <div class="imgContent" id="imgContent1">
+            <img src="images/img1.jpg" alt="">
+            <div class="imgTextBar">
+                
+                <p class="imgText">
+                    Same great quality. New lower prices.
+                </p>
+                <a href=""><i class="fas fa-chevron-circle-right"></i></a>
+            </div>
+        </div>
+        <div class="imgContent" id="imgContent2">
+            <img src="images/img2.jpg" alt="" >
+            <div class="imgTextBar">
+                
+                <p class="imgText">
+                    Everyday Essentials, High quality affordable 
+                </p>
+                <a href=""><i class="fas fa-chevron-circle-right"></i></a>
+            </div>
+        </div>
+        <div class="imgContent" id="imgContent3">
+            <img src="images/img3.jpg" alt="" >
+            <div class="imgTextBar">
+                
+                <p class="imgText">
+                    Join the makeover journey 
+                </p>
+                <a href=""><i class="fas fa-chevron-circle-right"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="page3">
+        <div class="page3contents">
+            <div class="page3content">
+                <div class="page3Img">
+                    <img src="images/promote1.svg" alt="">
+                </div>
+                <div class="page3Text">
+                    <h3>Transparent pricing</h3>
+                    <p>See fixed prices before you book. No hidden charges.</p>
+                </div>
+            </div>
+            <div class="page3content">
+                <div class="page3Img">
+                    <img src="images/chat-group1.svg" alt="">
+                </div>
+                <div class="page3Text">
+                    <h3>Experts only</h3>
+                    <p>Our professionals are well trained and have on-job expertise.</p>
+                </div>
+            </div>
+            <div class="page3content">
+                <div class="page3Img">
+                    <img src="images/chat1.svg" alt="">
+                </div>
+                <div class="page3Text">
+                    <h3>Fully equipped</h3>
+                    <p>We bring everything needed to get the job done well.</p>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="page3Back">
+            <img src="images/home2.jpg" alt="">
+            <div class="page3BackBox">
+
+            </div>
+        </div>
+    </div>
+    <div class="page4">
+        <div class="page4Content">
+            <h3>Book professionals from your phone</h3>
+            <p>Enter your mobile number to get the professionals help</p>
+            <div class="sendPhone">
+            <div class="codeTr">
+                <img src="images/Flag_of_Turkey.svg.webp" alt="">
+                <h3>+90</h3>
+            </div>
+            <div class="inputTel">
+                <input type="number" id="telNo" >
+                <button  type="submit" id="sendNo">Send</button>
+            </div>
+        </div>
+        </div>
+
+    </div>
+    <div class="page5">
+        <div class="page5Content">
+            <h2>More ideas and inspiration</h2>
+            <div class="gallery">
+                <a href="images/home1.jpg"><img src="images/home1.jpg" alt=""></a>
+                <a href="images/home2.jpg"><img src="images/home2.jpg" alt=""></a>
+                <a href="images/home3.jpg"><img src="images/home3.jpg" alt=""></a>
+                <a href="images/home4.jpg"><img src="images/home4.jpg" alt=""></a>
+                <a href="images/home2.jpg"><img src="images/home2.jpg" alt=""></a>
+                <a href="images/home5.jpg"><img src="images/home5.jpg" alt=""></a>
+                <a href="images/home6.jpg"><img src="images/home6.jpg" alt=""></a>
+                <a href="images/home2.jpg"><img src="images/home2.jpg" alt=""></a>
+                
+            </div>
+
+        </div>
+
+    </div>
+    <div class="page6">
+        <div class="page6Content">
+            <div id="page6Text">
+                <p>Housesale chose to work together with the Lebanese designer Nada Debs. We are thrilled to present this collaboration and the LJUV collection, and we hope that you can see, feel, use the connection between a designer from the Middle East  democratic design.
+
+                    Nada Debs is a Levantine designer living and working in Beirut. Her work spans scale and discipline: from product to furniture design to one-off commission across craft, art, fashion, and interiors. Nada grew up in Japan, studied design in Rhode Island School of Design in the US, and has spent significant periods living and traveling the world, finding connections of each of her experiences in all her work. She calls her approach handmade, and heart-made!
+                </p>
+                <button>More Collection</button>
+            </div>
+            <div id="page6Img">
+                <img src="images/home2.jpg" alt="">
+                <img src="images/img1.jpg" alt="">
+                <img src="images/img2.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <footer>
+        <img src="images/logo.svg" alt="">
+        <p>© 2020 Housesale Technologies Ltd.</p>
+        <p>1760  Dancing Dove Lane, New York, USA</p>
+        <p>sales@housesales.com</p>
+        <div class="applogo">
+            <a href=""><img src="images/googleplaylogo.svg" alt=""></a>
+            <a href=""><img src="images/appstore.svg" alt=""></a>
+            
+            
+        </div>
+    </footer>
+
+    
+</body>
+</html>
